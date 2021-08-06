@@ -1,0 +1,84 @@
+﻿.collapse {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    padding: 0 10px 0 10px;
+    background-color: #66A5AD;
+}
+.logo {
+    padding: 0 10px 0 10px;
+}
+.nav-link {
+    font-size: 18px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: max-content;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-link:hover {
+    background-color: #003B46;
+    transition: 0.5s;
+}
+
+
+.col {
+    background-color: white;
+}
+
+.buscador {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 50px;
+}
+.btnBuscar {
+    align-items:center;
+    
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.carrito {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CantidadCarrito {
+    background-color: white;
+    padding: 1px 5px 1px 5px;
+    border-radius: 45%;
+    width: 10px;
+    font-weight: bold;
+    width: 30px;
+}
+
+.card1 {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+}
+
+.card-body1{
+   align-items:center;
+   justify-content: center;
+   margin-left: 35px;
+}
+.card1:hover {
+    transform: scale(1.18);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.pieContacto {
+    display: flex;
+ 
+}
